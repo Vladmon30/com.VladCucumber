@@ -1,4 +1,4 @@
-@gmail
+@gmail @smoke
 Feature: Gmail registration with wrong credential
   Scenario: user must complite registration
     Given user is on the gmail.com page

@@ -1,3 +1,4 @@
+@smoke
 Feature: This is my first Feature
   # You can add some comment using '#'
   @google

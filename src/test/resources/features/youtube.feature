@@ -1,4 +1,4 @@
-@YouTube
+@YouTube @smoke
 Feature: YouTube search feature
   Scenario: Testing YouTube search
     Given user is on the YouTube home page
