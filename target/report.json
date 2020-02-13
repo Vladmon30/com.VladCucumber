@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 1051900,
+              "duration": 676800,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 20,
-        "name": "Testing adding new employee to the table",
+        "line": 3,
+        "name": "Testing YouTube search",
         "description": "",
-        "id": "testing-datatables-website;testing-adding-new-employee-to-the-table;test-data-for-datatables;2",
+        "id": "youtube-search-feature;testing-youtube-search",
         "after": [
           {
             "result": {
-              "duration": 164000,
+              "duration": 69700,
               "status": "passed"
             },
             "match": {
@@ -30,234 +30,84 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7778606100,
+              "duration": 10981776100,
               "status": "passed"
             },
             "line": 4,
-            "name": "User is on the datatables homepage",
+            "name": "user is on the YouTube home page",
             "match": {
-              "location": "DataTables2_steps.user_is_on_the_datatables_homepage()"
+              "location": "YouTube_steps.user_is_on_the_YouTube_home_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 546612700,
+              "duration": 86634000,
               "status": "passed"
             },
             "line": 5,
-            "name": "User clicks to New Button",
+            "name": "user is able to see search box",
             "match": {
-              "location": "DataTables2_steps.user_clicks_to_New_Button()"
+              "location": "YouTube_steps.user_is_able_to_see_search_box()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 561331000,
+              "duration": 88310700,
               "status": "passed"
             },
             "line": 6,
-            "name": "User should see Create New Entry Box",
+            "name": "user is able to see search button",
             "match": {
-              "location": "DataTables2_steps.user_should_see_Create_New_Entry_Box()"
+              "location": "YouTube_steps.user_is_able_to_see_search_button()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 60509400,
+              "duration": 675788000,
               "status": "passed"
             },
             "line": 7,
-            "name": "User should enter firstname \"john\"",
+            "name": "user search for FUNNY CAT VIDEO",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"john\"",
-                  "offset": 28
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_firstname(String)"
+              "location": "YouTube_steps.user_search_for_FUNNY_CAT_VIDEO()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 67486800,
+              "duration": 3722323900,
               "status": "passed"
             },
             "line": 8,
-            "name": "User should enter lastname \"doe\"",
+            "name": "user should see result related to funny cat video",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"doe\"",
-                  "offset": 27
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_lastname(String)"
+              "location": "YouTube_steps.user_should_see_result_related_to_funny_cat_video()"
             },
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 86689100,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User should enter position \"retired\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"retired\"",
-                  "offset": 27
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_position(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 92090900,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User should enter office \"london\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"london\"",
-                  "offset": 25
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_office(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 67959300,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User should enter extension \"314\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"314\"",
-                  "offset": 28
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_extension(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 198732800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "User should enter start date \"2019-12-12\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2019-12-12\"",
-                  "offset": 29
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_start_date(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 83023200,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "User should enter salary \"125000\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"125000\"",
-                  "offset": 25
-                }
-              ],
-              "location": "DataTables2_steps.user_should_enter_salary(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72297300,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "User should click to create button",
-            "match": {
-              "location": "DataTables2_steps.user_should_click_to_create_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 114350500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User enters first name \"john\" to search box",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"john\"",
-                  "offset": 23
-                }
-              ],
-              "location": "DataTables2_steps.user_enters_first_name_to_search_box(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5652671800,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User should see first name \"john\" is inserted in the table",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"john\"",
-                  "offset": 27
-                }
-              ],
-              "location": "DataTables2_steps.user_should_see_first_name_is_inserted_in_the_table(String)"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@datatables3"
+            "name": "@YouTube"
           }
         ]
       }
     ],
-    "name": "Testing datatables website",
+    "name": "YouTube search feature",
     "description": "",
-    "id": "testing-datatables-website",
+    "id": "youtube-search-feature",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/datatables3.feature",
+    "uri": "src/test/resources/features/youtube.feature",
     "tags": [
       {
-        "name": "@datatables3",
+        "name": "@YouTube",
         "type": "Tag",
         "location": {
           "line": 1,

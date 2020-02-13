@@ -40,11 +40,13 @@ public class YouTube_steps {
     }
 
     @When("user should see result related to funny cat video")
-    public void user_should_see_result_related_to_funny_cat_video() {
-
+    public void user_should_see_result_related_to_funny_cat_video() throws InterruptedException {
+        Thread.sleep(3000);
         String titleFunnyCat = Driver.getDriver().getTitle();
+        System.out.println(Driver.getDriver().getTitle());
         String expected ="CAT";
         Assert.assertTrue(titleFunnyCat.contains(expected));
+
         Driver.closeDriver();
 
     }

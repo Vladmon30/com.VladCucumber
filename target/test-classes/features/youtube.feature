@@ -1,4 +1,3 @@
-
 @YouTube
 Feature: YouTube search feature
   Scenario: Testing YouTube search

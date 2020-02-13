@@ -30,7 +30,7 @@ public class AmazonSearch_steps {
         String res = am.result.getText();
         System.out.println(res);
         Assert.assertTrue(res.contains("headphones"));
-
+        Driver.closeDriver();
     }
 
 }

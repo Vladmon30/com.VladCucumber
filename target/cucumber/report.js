@@ -1,107 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/datatables3.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/youtube.feature");
 formatter.feature({
-  "name": "Testing datatables website",
+  "name": "YouTube search feature",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@datatables3"
-    }
-  ]
-});
-formatter.scenarioOutline({
-  "name": "Testing adding new employee to the table",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "User is on the datatables homepage",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "User clicks to New Button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should see Create New Entry Box",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "User should enter firstname \"\u003cfirstname\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should enter lastname \"\u003clastname\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should enter position \"\u003cposition\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should enter office \"\u003coffice\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should enter extension \"\u003cextension\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should enter start date \"\u003cdate\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should enter salary \"\u003csalary\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should click to create button",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "User enters first name \"\u003cfirstname\u003e\" to search box",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "User should see first name \"\u003cfirstname\u003e\" is inserted in the table",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "Test data for datatables",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "firstname",
-        "lastname",
-        "position",
-        "office",
-        "extension",
-        "date",
-        "salary"
-      ]
-    },
-    {
-      "cells": [
-        "john",
-        "doe",
-        "retired",
-        "london",
-        "314",
-        "2019-12-12",
-        "125000"
-      ]
+      "name": "@YouTube"
     }
   ]
 });
 formatter.scenario({
-  "name": "Testing adding new employee to the table",
+  "name": "Testing YouTube search",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@datatables3"
+      "name": "@YouTube"
     }
   ]
 });
@@ -109,131 +23,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is on the datatables homepage",
+  "name": "user is on the YouTube home page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "DataTables2_steps.user_is_on_the_datatables_homepage()"
+  "location": "YouTube_steps.user_is_on_the_YouTube_home_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User clicks to New Button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_clicks_to_New_Button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should see Create New Entry Box",
+  "name": "user is able to see search box",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "DataTables2_steps.user_should_see_Create_New_Entry_Box()"
+  "location": "YouTube_steps.user_is_able_to_see_search_box()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should enter firstname \"john\"",
+  "name": "user is able to see search button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "DataTables2_steps.user_should_enter_firstname(String)"
+  "location": "YouTube_steps.user_is_able_to_see_search_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should enter lastname \"doe\"",
+  "name": "user search for FUNNY CAT VIDEO",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "YouTube_steps.user_search_for_FUNNY_CAT_VIDEO()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user should see result related to funny cat video",
   "keyword": "And "
 });
 formatter.match({
-  "location": "DataTables2_steps.user_should_enter_lastname(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should enter position \"retired\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_enter_position(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should enter office \"london\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_enter_office(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should enter extension \"314\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_enter_extension(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should enter start date \"2019-12-12\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_enter_start_date(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should enter salary \"125000\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_enter_salary(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should click to create button",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_click_to_create_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters first name \"john\" to search box",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_enters_first_name_to_search_box(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should see first name \"john\" is inserted in the table",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "DataTables2_steps.user_should_see_first_name_is_inserted_in_the_table(String)"
+  "location": "YouTube_steps.user_should_see_result_related_to_funny_cat_video()"
 });
 formatter.result({
   "status": "passed"
