@@ -6,7 +6,633 @@
         "before": [
           {
             "result": {
-              "duration": 1032900,
+              "duration": 1309700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Amazon search test",
+        "description": "",
+        "id": "amazon-search;amazon-search-test",
+        "after": [
+          {
+            "result": {
+              "duration": 252600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9986567100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the amazon homepage",
+            "match": {
+              "location": "AmazonSearch_steps.user_is_on_the_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 921419300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters headphones keyword",
+            "match": {
+              "location": "AmazonSearch_steps.user_enters_headphones_keyword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3246948000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks to amazon search button",
+            "match": {
+              "location": "AmazonSearch_steps.user_clicks_to_amazon_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835135400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see headphones in results",
+            "match": {
+              "location": "AmazonSearch_steps.user_should_see_headphones_in_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonSearch"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/amazonsearch.feature",
+    "tags": [
+      {
+        "name": "@amazonSearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 290200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Amazon Title verification",
+        "description": "",
+        "id": "amazon-title;amazon-title-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 107400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8666111000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user goes to Amazon application",
+            "match": {
+              "location": "AmazonTitle_steps.user_goes_to_Amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 682625500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see Amazon Title",
+            "match": {
+              "location": "AmazonTitle_steps.user_should_see_Amazon_Ttile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "#"
+          },
+          {
+            "name": "if"
+          },
+          {
+            "name": "u"
+          },
+          {
+            "name": "want"
+          },
+          {
+            "name": "to"
+          },
+          {
+            "name": "run"
+          },
+          {
+            "name": "all"
+          },
+          {
+            "name": "scenarios"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 181400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Amazon url verification",
+        "description": "",
+        "id": "amazon-title;amazon-url-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 112300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8821384000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user goes to Amazon application",
+            "match": {
+              "location": "AmazonTitle_steps.user_goes_to_Amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 838242200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should validate Amazon url",
+            "match": {
+              "location": "AmazonTitle_steps.user_should_validate_Amazon_url()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "#"
+          },
+          {
+            "name": "if"
+          },
+          {
+            "name": "u"
+          },
+          {
+            "name": "want"
+          },
+          {
+            "name": "to"
+          },
+          {
+            "name": "run"
+          },
+          {
+            "name": "all"
+          },
+          {
+            "name": "scenarios"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Title",
+    "description": "",
+    "id": "amazon-title",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/amazontitle.feature",
+    "tags": [
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "#",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      },
+      {
+        "name": "if",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      },
+      {
+        "name": "u",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      },
+      {
+        "name": "want",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
+        }
+      },
+      {
+        "name": "to",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 22
+        }
+      },
+      {
+        "name": "run",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 25
+        }
+      },
+      {
+        "name": "all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 29
+        }
+      },
+      {
+        "name": "scenarios",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 33
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 229300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Testing adding new employee to the table",
+        "description": "",
+        "id": "testing-datatables-website;testing-adding-new-employee-to-the-table",
+        "after": [
+          {
+            "result": {
+              "duration": 98000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7735575600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the datatables homepage",
+            "match": {
+              "location": "DataTables2_steps.user_is_on_the_datatables_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1060745900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks to New Button",
+            "match": {
+              "location": "DataTables2_steps.user_clicks_to_New_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647643700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see Create New Entry Box",
+            "match": {
+              "location": "DataTables2_steps.user_should_see_Create_New_Entry_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113618300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should enter firstname \"Vlad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vlad\"",
+                  "offset": 28
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_firstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187599300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should enter lastname \"Monchanov\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Monchanov\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_lastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263252700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should enter position \"Retired\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Retired\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_position(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243441900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should enter office \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 25
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_office(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212898300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should enter extension \"341\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"341\"",
+                  "offset": 28
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_extension(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507597200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should enter start date \"2019-01-12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2019-01-12\"",
+                  "offset": 29
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_start_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213837400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should enter salary \"124000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"124000\"",
+                  "offset": 25
+                }
+              ],
+              "location": "DataTables2_steps.user_should_enter_salary(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114638500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should click to create button",
+            "match": {
+              "location": "DataTables2_steps.user_should_click_to_create_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184392200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters first name \"Vlad\" to search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vlad\"",
+                  "offset": 23
+                }
+              ],
+              "location": "DataTables2_steps.user_enters_first_name_to_search_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5728442500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see first name \"Vlad\" is inserted in the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vlad\"",
+                  "offset": 27
+                }
+              ],
+              "location": "DataTables2_steps.user_should_see_first_name_is_inserted_in_the_table(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatables2"
+          }
+        ]
+      }
+    ],
+    "name": "Testing datatables website",
+    "description": "",
+    "id": "testing-datatables-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/datatables2.feature",
+    "tags": [
+      {
+        "name": "@datatables2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 138800,
               "status": "passed"
             },
             "match": {
@@ -21,7 +647,7 @@
         "after": [
           {
             "result": {
-              "duration": 277300,
+              "duration": 77900,
               "status": "passed"
             },
             "match": {
@@ -34,7 +660,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8846601900,
+              "duration": 7994881400,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +672,7 @@
           },
           {
             "result": {
-              "duration": 425123600,
+              "duration": 754575200,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +684,7 @@
           },
           {
             "result": {
-              "duration": 658580900,
+              "duration": 556840100,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +696,7 @@
           },
           {
             "result": {
-              "duration": 111144600,
+              "duration": 79262300,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 91533900,
+              "duration": 116198900,
               "status": "passed"
             },
             "line": 8,
@@ -106,7 +732,7 @@
           },
           {
             "result": {
-              "duration": 141906300,
+              "duration": 145479800,
               "status": "passed"
             },
             "line": 9,
@@ -124,7 +750,7 @@
           },
           {
             "result": {
-              "duration": 161331800,
+              "duration": 154784800,
               "status": "passed"
             },
             "line": 10,
@@ -142,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 122766400,
+              "duration": 126898900,
               "status": "passed"
             },
             "line": 11,
@@ -160,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 394730800,
+              "duration": 366645000,
               "status": "passed"
             },
             "line": 12,
@@ -178,7 +804,7 @@
           },
           {
             "result": {
-              "duration": 128890800,
+              "duration": 130054200,
               "status": "passed"
             },
             "line": 13,
@@ -196,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 105354300,
+              "duration": 126993300,
               "status": "passed"
             },
             "line": 14,
@@ -208,7 +834,7 @@
           },
           {
             "result": {
-              "duration": 164418700,
+              "duration": 194146300,
               "status": "passed"
             },
             "line": 15,
@@ -226,7 +852,7 @@
           },
           {
             "result": {
-              "duration": 5880531600,
+              "duration": 5741527600,
               "status": "passed"
             },
             "line": 16,
@@ -258,6 +884,435 @@
     "tags": [
       {
         "name": "@datatables3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user must complite registration",
+        "description": "",
+        "id": "gmail-registration-with-wrong-credential;user-must-complite-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 40600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8112252000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the gmail.com page",
+            "match": {
+              "location": "Gmail_steps.user_is_on_the_gmail_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2764429400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter email or phone and click next btn",
+            "match": {
+              "location": "Gmail_steps.user_should_enter_email_or_phone_and_click_next_btn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 320740800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter password and click next button",
+            "match": {
+              "location": "Gmail_steps.user_should_enter_password_and_click_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60454900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see sighn \"Couldn\u0027t sign you in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Couldn\u0027t sign you in\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Gmail_steps.user_should_see_sighn(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gmail"
+          }
+        ]
+      }
+    ],
+    "name": "Gmail registration with wrong credential",
+    "description": "",
+    "id": "gmail-registration-with-wrong-credential",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/gmail.feature",
+    "tags": [
+      {
+        "name": "@gmail",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Testing google search",
+        "description": "",
+        "id": "google-search-functionality;testing-google-search",
+        "after": [
+          {
+            "result": {
+              "duration": 97400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1856270300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the homepage of google",
+            "match": {
+              "location": "GoogleParameters_steps.user_is_on_the_homepage_of_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2186113900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"flowers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flowers\"",
+                  "offset": 12
+                }
+              ],
+              "location": "GoogleParameters_steps.user_enters(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1317752300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should see \"flowers\" in the title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"flowers\"",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleParameters_steps.user_should_see_in_the_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleParameters"
+          }
+        ]
+      }
+    ],
+    "name": "Google search functionality",
+    "description": "",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/googleParameters.feature",
+    "tags": [
+      {
+        "name": "@googleParameters",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 129300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Google search scenario",
+        "description": "",
+        "id": "this-is-my-first-feature;google-search-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 792100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to google application",
+            "match": {
+              "location": "Test_steps.user_goes_to_google_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user search for apple",
+            "match": {
+              "location": "Test_steps.user_search_for_apple()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see apple related results",
+            "match": {
+              "location": "Test_steps.user_should_see_apple_related_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user tests something",
+            "match": {
+              "location": "Test_steps.user_tests_something()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "This is my first Feature",
+    "description": "",
+    "id": "this-is-my-first-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/test.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 132700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Testing YouTube search",
+        "description": "",
+        "id": "youtube-search-feature;testing-youtube-search",
+        "after": [
+          {
+            "result": {
+              "duration": 83500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10171964200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the YouTube home page",
+            "match": {
+              "location": "YouTube_steps.user_is_on_the_YouTube_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113473300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is able to see search box",
+            "match": {
+              "location": "YouTube_steps.user_is_able_to_see_search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68266100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is able to see search button",
+            "match": {
+              "location": "YouTube_steps.user_is_able_to_see_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 789979700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user search for FUNNY CAT VIDEO",
+            "match": {
+              "location": "YouTube_steps.user_search_for_FUNNY_CAT_VIDEO()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3847386800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see result related to funny cat video",
+            "match": {
+              "location": "YouTube_steps.user_should_see_result_related_to_funny_cat_video()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@YouTube"
+          }
+        ]
+      }
+    ],
+    "name": "YouTube search feature",
+    "description": "",
+    "id": "youtube-search-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/youtube.feature",
+    "tags": [
+      {
+        "name": "@YouTube",
         "type": "Tag",
         "location": {
           "line": 1,
