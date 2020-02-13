@@ -21,6 +21,7 @@ import org.junit.runner.RunWith;
 // to run specific feature we use tags.
 // we can run multiple features like tags="@Amazon, @google"
 // or just one tags = "@Amazon"
+
         tags = "@YouTube, @google, @googleParameters, @gmail, @datatables3, @datatables2, @amazon, @amazonSearch",
 
 // dryRun its tag that avoid execution (dont runn browser) checket if all method generated
