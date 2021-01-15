@@ -8,6 +8,8 @@ import pages.AmazonSearch_page;
 import utilities.Driver;
 
 public class AmazonSearch_steps {
+
+// in order to use stored WebElement from pages package we must create object of this class
     AmazonSearch_page am = new AmazonSearch_page();
 
     @Given("User is on the amazon homepage")

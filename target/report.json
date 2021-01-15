@@ -6,129 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 913200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "user must complite registration",
-        "description": "",
-        "id": "gmail-registration-with-wrong-credential;user-must-complite-registration",
-        "after": [
-          {
-            "result": {
-              "duration": 87400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 8029705500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on the gmail.com page",
-            "match": {
-              "location": "Gmail_steps.user_is_on_the_gmail_com_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2477963300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should enter email or phone and click next btn",
-            "match": {
-              "location": "Gmail_steps.user_should_enter_email_or_phone_and_click_next_btn()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 258913500,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user should enter password and click next button",
-            "match": {
-              "location": "Gmail_steps.user_should_enter_password_and_click_next_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 60710000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should see sighn \"Couldn\u0027t sign you in\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Couldn\u0027t sign you in\"",
-                  "offset": 22
-                }
-              ],
-              "location": "Gmail_steps.user_should_see_sighn(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@gmail"
-          },
-          {
-            "name": "@smoke"
-          }
-        ]
-      }
-    ],
-    "name": "Gmail registration with wrong credential",
-    "description": "",
-    "id": "gmail-registration-with-wrong-credential",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/gmail.feature",
-    "tags": [
-      {
-        "name": "@gmail",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      },
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 8
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 64200,
+              "duration": 1762400,
               "status": "passed"
             },
             "match": {
@@ -137,13 +15,13 @@
           }
         ],
         "line": 5,
-        "name": "Google search scenario",
+        "name": "Amazon search test",
         "description": "",
-        "id": "this-is-my-first-feature;google-search-scenario",
+        "id": "amazon-search;amazon-search-test",
         "after": [
           {
             "result": {
-              "duration": 30000,
+              "duration": 233400,
               "status": "passed"
             },
             "match": {
@@ -156,203 +34,72 @@
         "steps": [
           {
             "result": {
-              "duration": 95000,
+              "duration": 7743429400,
               "status": "passed"
             },
             "line": 6,
-            "name": "user goes to google application",
+            "name": "User is on the amazon homepage",
             "match": {
-              "location": "Test_steps.user_goes_to_google_application()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 45200,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user search for apple",
-            "match": {
-              "location": "Test_steps.user_search_for_apple()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 41500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user should see apple related results",
-            "match": {
-              "location": "Test_steps.user_should_see_apple_related_results()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 42000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user tests something",
-            "match": {
-              "location": "Test_steps.user_tests_something()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@google"
-          }
-        ]
-      }
-    ],
-    "name": "This is my first Feature",
-    "description": "",
-    "id": "this-is-my-first-feature",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/test.feature",
-    "tags": [
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 34400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp(Scenario)"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "Testing YouTube search",
-        "description": "",
-        "id": "youtube-search-feature;testing-youtube-search",
-        "after": [
-          {
-            "result": {
-              "duration": 80600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 3383958500,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on the YouTube home page",
-            "match": {
-              "location": "YouTube_steps.user_is_on_the_YouTube_home_page()"
+              "location": "AmazonSearch_steps.user_is_on_the_amazon_homepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 33714400,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is able to see search box",
-            "match": {
-              "location": "YouTube_steps.user_is_able_to_see_search_box()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 68972300,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is able to see search button",
-            "match": {
-              "location": "YouTube_steps.user_is_able_to_see_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 562489300,
+              "duration": 254671000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user search for FUNNY CAT VIDEO",
+            "name": "User enters headphones keyword",
             "match": {
-              "location": "YouTube_steps.user_search_for_FUNNY_CAT_VIDEO()"
+              "location": "AmazonSearch_steps.user_enters_headphones_keyword()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3697155500,
+              "duration": 5394064700,
               "status": "passed"
             },
             "line": 8,
-            "name": "user should see result related to funny cat video",
+            "name": "User clicks to amazon search button",
             "match": {
-              "location": "YouTube_steps.user_should_see_result_related_to_funny_cat_video()"
+              "location": "AmazonSearch_steps.user_clicks_to_amazon_search_button()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 905252900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see headphones in results",
+            "match": {
+              "location": "AmazonSearch_steps.user_should_see_headphones_in_results()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@YouTube"
-          },
-          {
-            "name": "@smoke"
+            "name": "@amazonSearch"
           }
         ]
       }
     ],
-    "name": "YouTube search feature",
+    "name": "Amazon search",
     "description": "",
-    "id": "youtube-search-feature",
+    "id": "amazon-search",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/youtube.feature",
+    "uri": "src/test/resources/features/amazonsearch.feature",
     "tags": [
       {
-        "name": "@YouTube",
+        "name": "@amazonSearch",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
-        }
-      },
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 10
         }
       }
     ]

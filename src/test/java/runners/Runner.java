@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
 // we can run multiple features like tags="@Amazon, @google"
 // or just one tags = "@Amazon"
 
-        tags = "@smoke",
+        tags = "@amazonSearch",
 
 // dryRun its tag that avoid execution (dont runn browser) checket if all method generated
         dryRun = false
